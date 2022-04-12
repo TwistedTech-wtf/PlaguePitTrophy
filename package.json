@@ -1,0 +1,35 @@
+{
+  "name": "communityartcollection",
+  "version": "1.0.0",
+  "description": "<img src=\"https://github.com/DegenDwarfs/CommunityArtCollection/blob/main/images/commArt.png\">\r The Dwarf Community Art Collection.\r Part of Roadmap Phase 1 - Admire the Art",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DegenDwarfs/CommunityArtCollection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DegenDwarfs/CommunityArtCollection/issues"
+  },
+  "homepage": "https://github.com/DegenDwarfs/CommunityArtCollection#readme",
+  "dependencies": {
+    "@ethereum-waffle/provider": "^4.0.0",
+    "hardhat": "^2.9.3"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "ethereum-waffle": "^4.0.0",
+    "ethers": "^5.0.0",
+    "install": "^0.13.0",
+    "npm": "^8.6.0"
+  },
+  "keywords": []
+}
