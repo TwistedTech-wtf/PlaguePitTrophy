@@ -19,7 +19,7 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Token = await ethers.getContractFactory("CommunityArtCollection");
+  const Token = await ethers.getContractFactory("PlaguePitTrophy");
   const token = await Token.deploy(TOKEN_URI);
   await token.deployed();
 
@@ -38,13 +38,13 @@ function saveFrontendFiles(token) {
 
   fs.writeFileSync(
     contractsDir + "/contract-address.json",
-    JSON.stringify({ DDCAC: token.address}, undefined, 2)
+    JSON.stringify({ PLAGUE: token.address}, undefined, 2)
   );
 
-  const TokenArtifact = artifacts.readArtifactSync("CommunityArtCollection");
+  const TokenArtifact = artifacts.readArtifactSync("PlaguePitTrophy");
 
   fs.writeFileSync(
-    contractsDir + "/CommunityArtCollection.json",
+    contractsDir + "/PlaguePitTrophy.json",
     JSON.stringify(TokenArtifact, null, 2)
   );
 }
