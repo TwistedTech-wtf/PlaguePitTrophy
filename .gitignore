@@ -12,5 +12,5 @@ contracts/.deps
 contracts/.deps
 contracts/artifacts
 
-# # Config Deployment (don't share your private keys)
-# hardhat.config.js
+# Config Deployment (don't share your private keys)
+hardhat.config.js

@@ -1,0 +1,11 @@
+{
+    "name": "Plague Pits 1 Champion", 
+    "description": "The OG Plague Pits Champion!", 
+    "image": "ipfs://bafybeibjqt3by2awd557jlujl5jjuupr7hshqrv2w3xg7bse5krcbjr3ve/PlaguePits_Trophy_2.mp4",
+    "attributes":[
+        {"trait_type":"BUBO #","value":"87"},
+        {"trait_type":"BUBO Name","value":"Big Smitty"},
+        {"trait_type":"Winning Score","value":"8867"},
+       {"trait_type":"Date","value":"1/15/2022"}
+    ]
+}

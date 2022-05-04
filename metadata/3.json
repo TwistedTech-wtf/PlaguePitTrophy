@@ -1,0 +1,11 @@
+{
+    "name": "Plague Pits 3 Champion", 
+    "description": "The Plague Pits 3 Champion!", 
+    "image": "ipfs://bafybeibjqt3by2awd557jlujl5jjuupr7hshqrv2w3xg7bse5krcbjr3ve/PlaguePits_Trophy_2.mp4",
+    "attributes":[
+        {"trait_type":"BUBO #","value":"10"},
+        {"trait_type":"BUBO Name","value":"Infected"},
+        {"trait_type":"Winning Score","value":"47309"},
+        {"trait_type":"Date","value":"3/27/2022"}
+    ]
+}

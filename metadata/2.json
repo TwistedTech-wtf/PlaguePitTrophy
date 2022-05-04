@@ -1,0 +1,11 @@
+{
+    "name": "Plague Pits 2 Champion", 
+    "description": "The Plague Pits 2 Champion!", 
+    "image": "ipfs://bafybeibjqt3by2awd557jlujl5jjuupr7hshqrv2w3xg7bse5krcbjr3ve/PlaguePits_Trophy_2.mp4",
+    "attributes":[
+        {"trait_type":"BUBO #","value":"47"},
+        {"trait_type":"BUBO Name","value":"Scrooge McDuck"},
+        {"trait_type":"Winning Score","value":"12865"},
+        {"trait_type":"Date","value":"1/30/2022"}
+    ]
+}
