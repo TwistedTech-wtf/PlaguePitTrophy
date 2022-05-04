@@ -120,7 +120,7 @@ contract PlaguePitTrophy is ERC721, ERC721Enumerable, Ownable, Pausable {
      * @param tokenId 
      */         
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
-        return string(abi.encodePacked(_baseURI(), toString(tokenId), ".mp4"));
+        return string(abi.encodePacked(_baseURI(), toString(tokenId), ".json"));
     }
 
     function toString(uint256 value) internal pure returns (string memory) {
