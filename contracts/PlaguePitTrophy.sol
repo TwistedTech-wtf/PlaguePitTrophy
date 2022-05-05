@@ -46,10 +46,8 @@ contract PlaguePitTrophy is ERC721, ERC721Enumerable, Ownable, Pausable {
     /*
      * @param _tokenURI the URL for the tokenURI (metadata)          
      */    
-    constructor(
-        string memory _tokenURI
-    ) ERC721("Plague Pit Trophy", "PLAGUE") {
-        _baseTokenUri = _tokenURI;
+    constructor() ERC721("Plague Pit Trophy", "PLAGUE") {
+        _baseTokenUri = "ipfs://bafybeibncd5uhxcg2ouw3tnabnrog3k7f5pujodykcqs55fmxvpze2qkum/";
     }
 
     /*

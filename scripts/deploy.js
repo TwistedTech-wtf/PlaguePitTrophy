@@ -1,6 +1,3 @@
-//Degen Dwarf Gnosis Safe
-const TOKEN_URI = "https://assets.degendwarfs.io/artcollection/json/";
-
 async function main() {
   if (network.name === "hardhat") {
     console.warn(
@@ -20,7 +17,7 @@ async function main() {
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
   const Token = await ethers.getContractFactory("PlaguePitTrophy");
-  const token = await Token.deploy(TOKEN_URI);
+  const token = await Token.deploy();
   await token.deployed();
 
   console.log("NFT address:", token.address);
